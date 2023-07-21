@@ -9,7 +9,7 @@ $resultado = $mysqli->query($sql);
 
 if ($row = $resultado->fetch_assoc()) {
 
-    header("location: ../vistas/lector/index.php");
+    header("location: ../vistas/admin/index.php");
 } else {
     echo "Datos erroneos";
 }
