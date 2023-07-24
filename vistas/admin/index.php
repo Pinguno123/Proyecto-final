@@ -1,3 +1,6 @@
+<?php 
+	require_once "../../modelo/db.php";
+?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -19,7 +22,7 @@
 					Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nihil ducimus, quo, repellendus voluptate maiores ex mollitia repellat magnam reprehenderit impedit perspiciatis veritatis quidem iusto provident alias accusamus totam dolore assumenda repudiandae doloremque? Placeat numquam accusamus, quae aspernatur doloremque earum adipisci exercitationem quod at tempora accusantium perferendis assumenda? Provident, architecto pariatur.
 				</p>
 				<button role="button" class="boton"><i class="fas fa-play"></i>Reproducir</button>
-				<button role="button" class="boton"><i class="fas fa-info-circle"></i>Más Información</button>
+				<button role="button" class="boton"><i class="fas fa-info-circle"></i>Más Información</button><?php echo $prueba; ?>
 			</div>
 		</div>
 	</main>

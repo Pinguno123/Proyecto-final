@@ -1,3 +1,3 @@
 <?php 
-    header("location: /pruebas_clickmaster/login.php");
+    header("location: /Proyecto-final/login.php");
 ?>

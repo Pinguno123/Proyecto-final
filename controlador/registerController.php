@@ -1,12 +1,12 @@
 <?php 
     require_once "../modelo/db.php";
 
-    $user = $_POST['Nombre'];
-    $pass = $_POST['Contrasena'];
-    $email = $_POST['Correo'];
+    $user = $_POST['NOMBRE_USUARIO'];
+    $pass = $_POST['CONTRASENA_USUARIO'];
+    $email = $_POST['CORREO_USUARIO'];
 
-    $sql = "INSERT INTO usuarios (ID_Usuario, ID_Rol, Nombre, Contrasena, Correo) VALUES (NULL, '2', '$user', '$pass', '$email');";
+    $sql = "INSERT INTO usuario (`ID_USUARIO`, `ID_ROL`, `NOMBRE_USUARIO`, `CONTRASENA_USUARIO`, `CORREO_USUARIO`) VALUES (NULL, '2', '$user', '$pass', '$email');";
     $resultado = $mysqli->query($sql);
 
-    header("Location: ../vistas/inicio/login.php");
+    header("Location: ../login.php");
 ?>
