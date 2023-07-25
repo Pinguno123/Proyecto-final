@@ -7,10 +7,10 @@
 </head>
 <body>
     <form action="controlador/loginController.php" method="POST">
-        <label for="Nombre">Nombre</label>
-        <input type="text" name="Nombre" id="">
-        <label for="Contrasena">Contraseña</label>
-        <input type="text" name="Contrasena" id="">
+        <label for="NOMBRE_USUARIO">Nombre</label>
+        <input type="text" name="NOMBRE_USUARIO" id="">
+        <label for="CONTRASENA_USUARIO">Contraseña</label>
+        <input type="text" name="CONTRASENA_USUARIO" id="">
         <input type="submit" value="Enviar">
         <input type="reset" value="Borrar">
         <a href="register.php">Registrar</a>

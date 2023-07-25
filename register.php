@@ -1,4 +1,3 @@
-<?php require_once "../../modelo/db.php" ?>
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -7,13 +6,13 @@
     <title>Register</title>
 </head>
 <body>
-    <form action="../../controlador/registerController.php" method="POST">
-        <label for="Nombre">Nombre</label>
-        <input type="text" name="Nombre" id="">
-        <label for="Contrasena">Contraseña</label>
-        <input type="text" name="Contrasena" id="">
-        <label for="Correo">Correo Electronico</label>
-        <input type="email" name="Correo" id="">
+    <form action="controlador/registerController.php" method="POST">
+        <label for="NOMBRE_USUARIO">Nombre</label>
+        <input type="text" name="NOMBRE_USUARIO" id="">
+        <label for="CONTRASENA_USUARIO">Contraseña</label>
+        <input type="text" name="CONTRASENA_USUARIO" id="">
+        <label for="CORREO_USUARIO">Correo Electronico</label>
+        <input type="email" name="CORREO_USUARIO" id="">
         <input type="submit" value="Enviar">
         <input type="reset" value="Borrar">
         <a href="../inicio/login.php">Iniciar Sesion</a>
