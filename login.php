@@ -14,6 +14,7 @@
         <input type="submit" value="Enviar">
         <input type="reset" value="Borrar">
         <a href="register.php">Registrar</a>
+        <a href="change.php">Olvide mi contraseña</a>
     </form>
 </body>
 </html>

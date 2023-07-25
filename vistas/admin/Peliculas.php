@@ -1,3 +1,6 @@
+<?php 
+	require_once "../../modelo/db.php";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

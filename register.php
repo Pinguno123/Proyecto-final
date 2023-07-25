@@ -1,3 +1,7 @@
+<<<<<<< HEAD
+=======
+<?php require_once ("modelo/db.php"); ?>
+>>>>>>> ecf929af6c9def8f5b784613aafca0b3555a1c46
 <!DOCTYPE html>
 <html lang="es">
 <head>
@@ -6,7 +10,11 @@
     <title>Register</title>
 </head>
 <body>
+<<<<<<< HEAD
     <form action="controlador/registerController.php" method="POST">
+=======
+    <form action='controlador/registerController.php' method="POST">
+>>>>>>> ecf929af6c9def8f5b784613aafca0b3555a1c46
         <label for="NOMBRE_USUARIO">Nombre</label>
         <input type="text" name="NOMBRE_USUARIO" id="">
         <label for="CONTRASENA_USUARIO">Contraseña</label>
@@ -15,7 +23,7 @@
         <input type="email" name="CORREO_USUARIO" id="">
         <input type="submit" value="Enviar">
         <input type="reset" value="Borrar">
-        <a href="../inicio/login.php">Iniciar Sesion</a>
+        <a href="login.php">Iniciar Sesion</a>
     </form>
 </body>
 </html>
