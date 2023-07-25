@@ -27,6 +27,10 @@
             <h3>ADMINISTRAR PELICULAS</h3>
             <a href=""><img src="" alt="Imagen de actores"></a>
         </div>
+        <div>
+            <h3>ADMINISTRAR USUARIOS</h3>
+            <a href="adminUsuarios/Index.php"><img src="" alt="Imagen de actores"></a>
+        </div>
     </section>
 
 <script src="https://kit.fontawesome.com/2c36e9b7b1.js" crossorigin="anonymous"></script>
