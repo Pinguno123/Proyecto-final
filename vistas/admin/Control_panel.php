@@ -29,11 +29,7 @@
         </div>
         <div>
             <h3>ADMINISTRAR USUARIOS</h3>
-<<<<<<< HEAD
-            <a href="adminUsuarios/index.php"><img src="" alt="Imagen de actores"></a>
-=======
             <a href="adminUsuarios/Index.php"><img src="" alt="Imagen de actores"></a>
->>>>>>> ecf929af6c9def8f5b784613aafca0b3555a1c46
         </div>
     </section>
 

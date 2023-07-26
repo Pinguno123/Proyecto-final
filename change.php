@@ -8,17 +8,26 @@
 <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="assets/css/main.css">
         <title>Cambiar contraseña</title>
 </head>
 <body>
-        <form action="" method="post">
-                <label for="NOMBRE_USUARIO">Nombre de usuario</label>
-                <input type="text" name="NOMBRE_USUARIO" id="">
-                <label for="CONTRASENA_USUARIO">Contraseña nueva</label>
-                <input type="password" name="CONTRASENA_USUARIO" id="">
-                <input type="submit" value="Enviar">
-                <input type="reset" value="Borrar">
-                <a href="index.php">Volver</a>
-        </form>
+        <div class="container">
+                <form method="post">
+                        <div class="label">
+                                <label for="CORREO_USUARIO">Correo electronico</label>
+                                <input type="email" name="CORREO_USUARIO" id="" placeholder="Ingrese su correo electronico">
+                                <label for="CONTRASENA_USUARIO">Contraseña nueva</label>
+                                <input type="text" name="CONTRASENA_USUARIO" id="" placeholder="Ingrese su nueva contraseña">
+                        </div>
+                        <div class="boton">
+                                <input type="submit" value="Enviar" class="btn btn-primary">
+                                <input type="reset" value="Borrar" class="btn btn-warning">
+                        </div>
+                        <div class="links">
+                                <a href="index.php">Volver</a>
+                        </div>
+                </form>
+        </div>
 </body>
 </html>

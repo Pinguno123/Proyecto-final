@@ -1,29 +1,31 @@
-<<<<<<< HEAD
-=======
 <?php require_once ("modelo/db.php"); ?>
->>>>>>> ecf929af6c9def8f5b784613aafca0b3555a1c46
 <!DOCTYPE html>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Register</title>
+    <link rel="stylesheet" href="assets/css/main.css">
+    <title>Registrarse</title>
 </head>
 <body>
-<<<<<<< HEAD
-    <form action="controlador/registerController.php" method="POST">
-=======
-    <form action='controlador/registerController.php' method="POST">
->>>>>>> ecf929af6c9def8f5b784613aafca0b3555a1c46
-        <label for="NOMBRE_USUARIO">Nombre</label>
-        <input type="text" name="NOMBRE_USUARIO" id="">
-        <label for="CONTRASENA_USUARIO">Contraseña</label>
-        <input type="text" name="CONTRASENA_USUARIO" id="">
-        <label for="CORREO_USUARIO">Correo Electronico</label>
-        <input type="email" name="CORREO_USUARIO" id="">
-        <input type="submit" value="Enviar">
-        <input type="reset" value="Borrar">
-        <a href="login.php">Iniciar Sesion</a>
-    </form>
+    <div class="container">
+        <form action='controlador/registerController.php' method="POST">
+            <div class="label">
+                <label for="NOMBRE_USUARIO">Nombre</label>
+                <input type="text" name="NOMBRE_USUARIO" id="" placeholder="Ingrese nombre de usuario">
+                <label for="CONTRASENA_USUARIO">Contraseña</label>
+                <input type="text" name="CONTRASENA_USUARIO" id="" placeholder="Ingrese su contraseña">
+                <label for="CORREO_USUARIO">Correo Electronico</label>
+                <input type="email" name="CORREO_USUARIO" id="" placeholder="Ingrese su correo electronico">
+            </div>
+            <div class="boton">
+                <input type="submit" value="Enviar" class="btn btn-primary">
+                <input type="reset" value="Borrar" class="btn btn-warning">
+            </div>
+            <div class="links">
+                <a href="login.php">Volver</a>
+            </div>
+        </form>
+    </div>
 </body>
 </html>
